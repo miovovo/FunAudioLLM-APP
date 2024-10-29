@@ -12,6 +12,8 @@ from uuid import uuid4
 from modelscope import HubApi
 import torchaudio
 import sys
+#sys.path.append("/workspaces/FunAudioLLM-APP/cosyvoice")
+#sys.path.append("/workspaces/FunAudioLLM-APP/sensevoice")
 sys.path.insert(1, "../cosyvoice")
 sys.path.insert(1, "../sensevoice")
 sys.path.insert(1, "../cosyvoice/third_party/AcademiCodec")
